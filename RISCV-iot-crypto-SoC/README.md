@@ -1,4 +1,4 @@
-### 🧪 Simulation Result — AES Encryption
+###  Simulation Result — AES Encryption
 
 The following waveform shows the encryption process.  
 `plaintext` is XORed with `key` in this simulation stub to produce `ciphertext`.  
