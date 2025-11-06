@@ -7,7 +7,7 @@ When the operation completes, the signal `done` goes high.
 ![AES Waveform](images/aes_wave.png)
 ---
 
-### 🧪 Simulation Result — Top-Level SoC Integration
+###  Simulation Result — Top-Level SoC Integration
 
 This waveform shows the complete SoC behavior with AES integrated.  
 When `start` is asserted, encryption begins, and the `done` signal goes high when the ciphertext is ready.
