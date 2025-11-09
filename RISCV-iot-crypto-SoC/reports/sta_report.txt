@@ -1,0 +1,56 @@
+Startpoint: rst (input port clocked by clk)
+Endpoint: aes_inst/_1797_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+      Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------
+             0.0000    0.0000    0.0000   clock clk (rise edge)
+                       0.0000    0.0000   clock network delay (ideal)
+                       2.0000    2.0000 v input external delay
+   0.3745    0.0000    0.0000    2.0000 v rst (in)
+   0.0036    0.0278    0.0261    2.0261 ^ aes_inst/_1788_/Y (sky130_fd_sc_hd__clkinv_1)
+             0.0278    0.0000    2.0261 ^ aes_inst/_1797_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+                                 2.0261   data arrival time
+
+             0.0000   10.0000   10.0000   clock clk (rise edge)
+                       0.0000   10.0000   clock network delay (ideal)
+                       0.0000   10.0000   clock reconvergence pessimism
+                                10.0000 ^ aes_inst/_1797_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                       0.2210   10.2210   library recovery time
+                                10.2210   data required time
+-------------------------------------------------------------------------------
+                                10.2210   data required time
+                                -2.0261   data arrival time
+-------------------------------------------------------------------------------
+                                 8.1950   slack (MET)
+
+
+Startpoint: aes_inst/_1924_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: data_out[127] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+      Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------
+             0.0000    0.0000    0.0000   clock clk (rise edge)
+                       0.0000    0.0000   clock network delay (ideal)
+             0.0000    0.0000    0.0000 ^ aes_inst/_1924_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.0023    0.0378    0.3321    0.3321 v aes_inst/_1924_/Q (sky130_fd_sc_hd__dfrtp_1)
+             0.0378    0.0000    0.3321 v data_out[127] (out)
+                                 0.3321   data arrival time
+
+             0.0000   10.0000   10.0000   clock clk (rise edge)
+                       0.0000   10.0000   clock network delay (ideal)
+                       0.0000   10.0000   clock reconvergence pessimism
+                      -2.0000    8.0000   output external delay
+                                 8.0000   data required time
+-------------------------------------------------------------------------------
+                                 8.0000   data required time
+                                -0.3321   data arrival time
+-------------------------------------------------------------------------------
+                                 7.6679   slack (MET)
+
+
+tns max 0.00
+wns max 0.00
