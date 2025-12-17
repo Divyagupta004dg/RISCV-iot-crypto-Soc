@@ -1,0 +1,122 @@
+Wed Dec 17 20:48:23 IST 2025 - Executing "{openroad -exit -no_init -python /home/divya/OpenLane/scripts/odbpy/lefutil.py get_metal_layers -o /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/layers.list /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef}"
+
+Wed Dec 17 20:48:23 IST 2025 - Executing "{/home/divya/OpenLane/scripts/mergeLef.py -o /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/merged.nom.lef -i /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null}"
+
+Wed Dec 17 20:48:23 IST 2025 - Executing "{/home/divya/OpenLane/scripts/mergeLef.py -o /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/merged.min.lef -i /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{/home/divya/OpenLane/scripts/mergeLef.py -o /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/merged.max.lef -i /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/mergeLib.py --output /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/merged.lib --name sky130A_merged /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/libtrim.py --cell-file /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/trimmed.lib.exclude.list --output /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/trimmed.lib /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/merged.lib}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/libtrim.py --cell-file /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts.lib.exclude.list --output /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts.lib /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/libtrim.py --cell-file /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts-fastest.lib.exclude.list --output /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts-fastest.lib /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib}"
+
+Wed Dec 17 20:48:24 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/libtrim.py --cell-file /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts-slowest.lib.exclude.list --output /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/cts/cts-slowest.lib /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/new_tracks.py -i /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/routing/config.tracks}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{echo {OpenLane aaee3451602a95fa3477ab27ed714189df963cee} > /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/OPENLANE_VERSION}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{yosys -c /home/divya/OpenLane/scripts/yosys/blackbox.tcl}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{verilator -Wall --lint-only --Wno-DECLFILENAME --top-module top /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/blackbox/sky130_fd_sc_hd__blackbox.v /home/divya/RISCV-iot-crypto-SoC/openlane/top/src/top.v /home/divya/RISCV-iot-crypto-SoC/openlane/top/src/aes_core.v -Wno-fatal --relative-includes |& tee /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/synthesis/linter.log /dev/null}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/trimmed.lib > /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/synthesis/1-trimmed.no_pg.lib}"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "yosys -c /home/divya/OpenLane/scripts/yosys/synth.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/synthesis/1-synthesis.log"
+
+Wed Dec 17 20:48:25 IST 2025 - Executing "{yosys -c /home/divya/OpenLane/scripts/yosys/synth.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/synthesis/1-synthesis.log}"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/results\/synthesis\/top.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "{sed -i.bak /defparam/d /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/results/synthesis/top.v}"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "sta -exit -no_init /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/synthesis/2-sta.log"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "{sta -exit -no_init /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/synthesis/2-sta.log}"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/3-initial_fp.log"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/3-initial_fp.log}"
+
+Wed Dec 17 20:48:26 IST 2025 - Executing "{openroad -exit -no_init -python /home/divya/OpenLane/scripts/odbpy/defutil.py extract_core_dims --output-data /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/dimensions.txt --input-lef /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/merged.nom.lef /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/floorplan/3-initial_fp.def}"
+
+Wed Dec 17 20:48:27 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/4-io.log"
+
+Wed Dec 17 20:48:27 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/4-io.log}"
+
+Wed Dec 17 20:48:27 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/5-tap.log"
+
+Wed Dec 17 20:48:27 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/5-tap.log}"
+
+Wed Dec 17 20:48:28 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/pdn.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/6-pdn.log"
+
+Wed Dec 17 20:48:28 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/pdn.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/floorplan/6-pdn.log}"
+
+Wed Dec 17 20:48:28 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/gpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/6-global_skip_io.log"
+
+Wed Dec 17 20:48:28 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/gpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/6-global_skip_io.log}"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/tmp\/placement\/7-global_skip_io.nl.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/8-gpl_sta.log"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/8-gpl_sta.log}"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/9-io.log"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/9-io.log}"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/gpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/9-global.log"
+
+Wed Dec 17 20:48:29 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/gpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/9-global.log}"
+
+Wed Dec 17 20:48:30 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/tmp\/placement\/10-global.nl.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:30 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/11-gpl_sta.log"
+
+Wed Dec 17 20:48:30 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/11-gpl_sta.log}"
+
+Wed Dec 17 20:48:30 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/resizer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/12-resizer.log"
+
+Wed Dec 17 20:48:30 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/resizer.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/12-resizer.log}"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/tmp\/placement\/12-resizer.nl.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/dpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/13-detailed.log"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/dpl.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/13-detailed.log}"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/results\/placement\/top.nl.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/14-dpl_sta.log"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/placement/14-dpl_sta.log}"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/cts.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/15-cts.log"
+
+Wed Dec 17 20:48:32 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/cts.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/15-cts.log}"
+
+Wed Dec 17 20:48:36 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/16-cts_sta.log"
+
+Wed Dec 17 20:48:36 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/16-cts_sta.log}"
+
+Wed Dec 17 20:48:36 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/17-resizer.log"
+
+Wed Dec 17 20:48:36 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/cts/17-resizer.log}"
+
+Wed Dec 17 20:48:37 IST 2025 - Executing "{sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/divya\/RISCV-iot-crypto-SoC\/openlane\/top\/runs\/full_run\/tmp\/cts\/17-top.resized.nl.v/} /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/config.tcl}"
+
+Wed Dec 17 20:48:38 IST 2025 - Executing "openroad -exit /home/divya/OpenLane/scripts/openroad/resizer_routing_design.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/routing/18-resizer_design.log"
+
+Wed Dec 17 20:48:38 IST 2025 - Executing "{openroad -exit /home/divya/OpenLane/scripts/openroad/resizer_routing_design.tcl |& tee /dev/null /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/logs/routing/18-resizer_design.log}"
+
+Wed Dec 17 20:48:39 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/write_runtime.py --conclude --seconds --time-in 1765984719 {flow failed}}"
+
+Wed Dec 17 20:48:39 IST 2025 - Executing "{python3 /home/divya/OpenLane/scripts/generate_reports.py -d /home/divya/RISCV-iot-crypto-SoC/openlane/top --design_name top --tag full_run --output_file /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/reports/metrics.csv --man_report /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/reports/manufacturability.rpt --run_path /home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run}"
+

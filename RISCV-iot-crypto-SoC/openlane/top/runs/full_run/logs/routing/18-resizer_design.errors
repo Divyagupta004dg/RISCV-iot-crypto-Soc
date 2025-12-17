@@ -1,0 +1,2 @@
+[ERROR GRT-0042] Pin clk does not have geometries in a valid routing layer.
+Error: resizer_routing_design.tcl, 46 GRT-0042

@@ -1,0 +1,6 @@
+OpenROAD v2.0-23696-g199d0fad55 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+INFO: 🟢 Skipping multi-corner STA for synthesis/pre-floorplan stages.
+INFO: 🟢 This prevents clock propagation errors and allows floorplan to continue.

@@ -1,0 +1,14 @@
+#N
+clk
+rst
+
+#S
+start
+done
+
+#E
+data_in
+
+#W
+data_out
+key_in

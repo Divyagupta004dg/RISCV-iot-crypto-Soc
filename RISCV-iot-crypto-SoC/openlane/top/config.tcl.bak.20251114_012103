@@ -1,0 +1,54 @@
+# Minimal OpenLane config.tcl tuned to avoid PDN channel failures
+# (Backed up: config.tcl.bak.*)
+
+# Basic design variables
+set ::env(DESIGN_DIR) "[file normalize [pwd]]"
+set ::env(DESIGN_NAME) "top"
+
+# PDK and libraries (keep what you had)
+set ::env(PDK) "sky130A"
+set ::env(PDK_ROOT) "/home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a"
+set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
+set ::env(OPTIMIZATION_LIBRARY) "sky130_fd_sc_hd"
+
+# Pin order file (make sure this exists and is clean, no blank lines)
+set ::env(PIN_ORDER_CFG) "$::env(DESIGN_DIR)/pin_order.cfg"
+# Do not abort on unmatched pins (helpful during debug)
+set ::env(PLACE_IO_UNMATCHED_ERROR) 0
+
+# --- Floorplan / core sizing (increase size to give PDN room) ---
+# Die area: xmin ymin xmax ymax  (increase to give PDN larger area)
+set ::env(DIE_AREA) "0 0 1200 1200"
+
+# Core margin (mm of margin inside die)
+set ::env(FP_CORE_MARGIN) 60
+
+# Core utilization percentage (lower -> bigger core area vs cells)
+set ::env(FP_CORE_UTIL) 35
+
+# If you want a fixed core size, you could instead set:
+# set ::env(FP_CORE_WIDTH) 900
+# set ::env(FP_CORE_HEIGHT) 900
+
+# --- PDN tweaks ---
+# Point the flow to the PDN script (default)
+set ::env(PDN_CFG) "$::env(DESIGN_DIR)/pdn.tcl"
+
+# If PDN fails again, try reducing aggressiveness (these are read by pdn.tcl)
+# (These variables are intentionally conservative)
+set ::env(PDN_STRIP_PITCH) 8
+set ::env(PDN_VERT_RAIL_PITCH) 8
+set ::env(PDN_HOR_RAIL_PITCH) 8
+
+# NB: Many PDN variations are authored in scripts/openroad/pdn.tcl. This config
+# gives the PDN generator more room and less density so OpenROAD can repair channels.
+
+# SDC (synthesis / pnr) hints - keep defaults or point to a custom SDC
+set ::env(PNR_SDC_FILE) "$::env(DESIGN_DIR)/custom.sdc"
+set ::env(SIGNOFF_SDC_FILE) "$::env(DESIGN_DIR)/custom.sdc"
+
+# Other safety / debugging
+set ::env(RUN_PARALLEL) 0
+set ::env(VERBOSE) 1
+
+# END

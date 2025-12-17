@@ -1,0 +1,20 @@
+digraph "top" {
+label="top";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="done", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="data_out", color="black", fontcolor="black" ];
+n3 [ shape=octagon, label="key_in", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="data_in", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="start", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="rst", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+c11 [ shape=record, label="{{<p7> clk|<p8> key|<p9> plaintext|<p6> rst|<p5> start}|aes_inst\naes_core|{<p10> ciphertext|<p1> done}}",  ];
+c11:p1:e -> n1:w [color="black", fontcolor="black", label=""];
+c11:p10:e -> n2:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n3:e -> c11:p8:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> c11:p9:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n5:e -> c11:p5:w [color="black", fontcolor="black", label=""];
+n6:e -> c11:p6:w [color="black", fontcolor="black", label=""];
+n7:e -> c11:p7:w [color="black", fontcolor="black", label=""];
+}

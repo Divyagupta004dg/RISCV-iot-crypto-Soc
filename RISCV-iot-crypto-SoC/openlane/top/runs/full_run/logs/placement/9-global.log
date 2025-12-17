@@ -1,0 +1,101 @@
+OpenROAD v2.0-23696-g199d0fad55 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+define_corners Typical
+read_liberty -corner Typical /home/divya/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+[INFO]: Reading ODB at '/home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/placement/9-io.odb'…
+Reading design constraints file at '/home/divya/RISCV-iot-crypto-SoC/openlane/top/top.sdc'…
+[INFO]: Setting RC values...
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+[WARNING GPL-0150] -skip_io will disable timing driven mode.
+[WARNING GPL-0151] -skip_io will disable routability driven mode.
+[INFO GPL-0005] Execute conjugate gradient initial placement.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 184.000 187.680 ) um
+[INFO GPL-0006] Number of instances:              1235
+[INFO GPL-0007] Movable instances:                 670
+[INFO GPL-0008] Fixed instances:                   565
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                    929
+[INFO GPL-0011] Number of pins:                   1982
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 189.730 200.450 ) um
+[INFO GPL-0013] Core BBox: (  5.520 10.880 ) ( 184.000 187.680 ) um
+[INFO GPL-0016] Core area:                   31555.264 um^2
+[INFO GPL-0017] Fixed instances area:         1032.240 um^2
+[INFO GPL-0018] Movable instances area:       7982.656 um^2
+[INFO GPL-0019] Utilization:                    26.153 %
+[INFO GPL-0020] Standard cells area:          7982.656 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0023] Placement target density:       0.5500
+[INFO GPL-0024] Movable insts average area:     11.914 um^2
+[INFO GPL-0025] Ideal bin area:                 21.663 um^2
+[INFO GPL-0026] Ideal bin count:                  1456
+[INFO GPL-0027] Total bin area:              31555.264 um^2
+[INFO GPL-0028] Bin count (X, Y):          32 ,     32
+[INFO GPL-0029] Bin size (W * H):       5.577 *  5.525 um
+[INFO GPL-0030] Number of bins:                   1024
+[INFO GPL-0007] Execute nesterov global placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.1093 |  3.176996e+06 |   +0.00% |  1.26e-12 |      
+       10 |   0.3243 |  2.912394e+06 |   -8.33% |  1.85e-12 |      
+       20 |   0.7093 |  2.840041e+06 |   -2.48% |  2.73e-12 |      
+       30 |   0.7788 |  2.340214e+06 |  -17.60% |  4.02e-12 |      
+       40 |   0.8793 |  1.927921e+06 |  -17.62% |  5.93e-12 |      
+       50 |   0.9284 |  1.562263e+06 |  -18.97% |  8.73e-12 |      
+       60 |   0.9242 |  1.695026e+06 |   +8.50% |  1.29e-11 |      
+       70 |   0.8744 |  1.900746e+06 |  +12.14% |  1.89e-11 |      
+       80 |   0.8319 |  1.952072e+06 |   +2.70% |  2.79e-11 |      
+       90 |   0.8200 |  1.851417e+06 |   -5.16% |  4.11e-11 |      
+      100 |   0.8176 |  1.899878e+06 |   +2.62% |  6.06e-11 |      
+      110 |   0.8008 |  2.026414e+06 |   +6.66% |  8.92e-11 |      
+      120 |   0.7761 |  2.095244e+06 |   +3.40% |  1.31e-10 |      
+      130 |   0.7625 |  2.251426e+06 |   +7.45% |  1.94e-10 |      
+      140 |   0.7244 |  2.286390e+06 |   +1.55% |  2.85e-10 |      
+      150 |   0.7254 |  2.378490e+06 |   +4.03% |  4.20e-10 |      
+      160 |   0.7003 |  2.531630e+06 |   +6.44% |  6.19e-10 |      
+      170 |   0.6542 |  2.686557e+06 |   +6.12% |  9.12e-10 |      
+      180 |   0.5981 |  2.776635e+06 |   +3.35% |  1.34e-09 |      
+      190 |   0.5659 |  2.785078e+06 |   +0.30% |  1.98e-09 |      
+      200 |   0.5173 |  2.890399e+06 |   +3.78% |  2.91e-09 |      
+      210 |   0.4866 |  2.933215e+06 |   +1.48% |  4.29e-09 |      
+      220 |   0.4461 |  2.952739e+06 |   +0.67% |  6.32e-09 |      
+      230 |   0.4059 |  2.988836e+06 |   +1.22% |  9.32e-09 |      
+      240 |   0.3586 |  3.012394e+06 |   +0.79% |  1.37e-08 |      
+      250 |   0.3206 |  3.023236e+06 |   +0.36% |  2.02e-08 |      
+      260 |   0.2815 |  3.010408e+06 |   -0.42% |  2.98e-08 |      
+      270 |   0.2484 |  2.979167e+06 |   -1.04% |  4.39e-08 |      
+      280 |   0.2174 |  2.991471e+06 |   +0.41% |  6.46e-08 |      
+      290 |   0.1935 |  3.001373e+06 |   +0.33% |  9.52e-08 |      
+      300 |   0.1726 |  3.026914e+06 |   +0.85% |  1.40e-07 |      
+      310 |   0.1542 |  3.055297e+06 |   +0.94% |  2.07e-07 |      
+      320 |   0.1384 |  3.064182e+06 |   +0.29% |  3.04e-07 |      
+      330 |   0.1218 |  3.101880e+06 |   +1.23% |  4.48e-07 |      
+      340 |   0.1054 |  3.144500e+06 |   +1.37% |  6.61e-07 |      
+      347 |   0.0969 |  3.153606e+06 |          |  9.01e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 347
+[INFO GPL-1002] Placed Cell Area             7982.6560
+[INFO GPL-1003] Available Free Area         30523.0240
+[INFO GPL-1004] Minimum Feasible Density        0.2700 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.2906
+[INFO GPL-1008]     - For 80% usage of free space: 0.3269
+[INFO GPL-1009]     - For 50% usage of free space: 0.5231
+[INFO GPL-1014] Final placement area: 7982.66 (+0.00%)
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/placement/10-global.odb'…
+Writing netlist to '/home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/placement/10-global.nl.v'…
+Writing powered netlist to '/home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/placement/10-global.pnl.v'…
+Writing layout to '/home/divya/RISCV-iot-crypto-SoC/openlane/top/runs/full_run/tmp/placement/10-global.def'…
