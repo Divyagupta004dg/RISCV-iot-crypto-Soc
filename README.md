@@ -91,3 +91,19 @@
 - DRC + LVS with Magic & Netgen
 
 - Final GDSII Layout Export
+
+- 
+- RTL Coding (CPU, AES, SHA, Peripherals)
+
+- Verification (directed + AES Known Answer Tests)
+
+- Synthesis with Yosys
+
+- Static Timing Analysis (OpenSTA)
+
+- Place & Route with OpenLane/OpenROAD
+
+- Clock Tree Synthesis
+
+- DRC + LVS with Magic & Netgen
+
