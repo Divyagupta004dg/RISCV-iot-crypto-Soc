@@ -1,4 +1,4 @@
-# RISC-V IoT Core with Integrated AES/SHA Crypto Engine
+hdndnwksn# RISC-V IoT Core with Integrated AES/SHA Crypto Engine
 
 
 ***This project designs a small RISC-V processor for IoT devices with a built-in AES-128 and SHA-256 hardware engine. It provides fast, low-power, and secure data communication for IoT systems such as smart health devices, smart meters, and automotive sensors.***
@@ -71,6 +71,16 @@
 
 - Final GDSII Layout Export
 - 
+bdnsjdjw ki sidjnejwiwuwywye hai ye ygxbdbbbxbbd
 
+Static Timing Analysis (OpenSTA)
 
+- Place & Route with OpenLane/OpenROAD
 
+- Clock Tree Synthesis
+
+- DRC + LVS with Magic & Netgen
+
+- Final GDSII Layout Export
+- 
+bdnsjdjw ki sidjnejwiwuwywye hai ye ygxbdbbbxbbd
