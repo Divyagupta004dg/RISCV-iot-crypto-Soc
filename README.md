@@ -70,33 +70,7 @@
 - DRC + LVS with Magic & Netgen
 
 - Final GDSII Layout Export
-- 
-bdnsjdjw ki sidjnejwiwuwywye hai ye ygxbdbbbxbbd
 
-Static Timing Analysis (OpenSTA)
+- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
 
-- Place & Route with OpenLane/OpenROAD
 
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-- 
-bdnsjdjw ki sidjnejwiwuwywye hai ye ygxbdbbbxbbd
-bsnskwknsbxnxhejwb
-
-- Final GDSII Layout Export
-- 
-bdnsjdjw ki sidjnejwiwuwywye hai ye ygxbdbbbxbbd
-
-Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-- 
