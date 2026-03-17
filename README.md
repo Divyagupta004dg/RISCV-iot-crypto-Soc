@@ -59,6 +59,9 @@
 
 - Verification (directed + AES Known Answer Tests)
 
+
+- Verification (directed + AES Known Answer Tests)
+
 - Synthesis with Yosys
 
 - Static Timing Analysis (OpenSTA)
@@ -72,10 +75,3 @@
 - Final GDSII Layout Export
 
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-
-RT, SPI/I2C, GPIO, Timer**
-
-- *Integration: All blocks connected with a simple memory-mapped bus**
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-
