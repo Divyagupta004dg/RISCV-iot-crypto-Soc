@@ -95,9 +95,7 @@ fSynthesis with Yosys
 
 - Final GDSII Layout Export
 
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-fSynthesis
-- Final GDSII Layout Export
+- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
 
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
 fSynthesis with Yosys
@@ -109,4 +107,4 @@ fSynthesis with Yosys
 - Final GDSII Layout Export
 
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-fSynthesis 
+ 
