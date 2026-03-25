@@ -108,3 +108,17 @@ fSynthesis with Yosys
 
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
  
+- Final GDSII Layout Export
+
+- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
+
+- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
+fSynthesis with Yosys
+
+- Static Timing Analysis (OpenSTA)
+
+- DRC + LVS with Magic & Netgen
+
+- Final GDSII Layout Export
+
+- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
