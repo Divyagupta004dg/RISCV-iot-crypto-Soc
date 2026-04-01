@@ -58,13 +58,8 @@
 
 - Place & Route with OpenLane/OpenROAD
 
-- Clock Tree Synthesis
+- Clock Tree Synth
 
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
 
 - Synthesis with Yosys
 
@@ -72,19 +67,4 @@
 
 - Place & Route with OpenLane/OpenROAD
 
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout*
-& Route with OpenLane/OpenROAD
-
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
+- Clock Tree Synth
