@@ -90,3 +90,21 @@
 - Place & Route with OpenLane/OpenROAD
 
 - Clock Tree Synth
+
+
+- Synthesis with Yosys
+
+- Static Timing Analysis (OpenSTA)
+
+- Place & Route with OpenLane/OpenROAD
+
+- Clock Tree Synth
+
+
+- Synthesis with Yosys
+
+- Static Timing Analysis (OpenSTA)
+
+- Place & Route with OpenLane/OpenROAD
+
+- Clock Tree Synth
