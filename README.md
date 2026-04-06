@@ -52,89 +52,15 @@
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
 
 
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
 - 
+
+- Place & Route with OpenLane/OpenROAD
+
+- Clock Tree Synthesis
+
+- DRC + LVS with Magic & Netgen
+
 - Final GDSII Layout Export
 
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
 
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
-
-
-- Synthesis with Yosys
-
-- Static Timing Analysis (OpenSTA)
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synth
