@@ -52,47 +52,7 @@
 - *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
 
 
-- 
 
-- Place & Route with OpenLane/OpenROAD
 
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-
-- Place & Route with OpenLane/OpenROAD
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
-- 
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout**
-
-- Place & Route with OpenLane/OpenROAD
-
-- Place & Route with OpenLane/OpenROAD
-
-- Clock Tree Synthesis
-
-- DRC + LVS with Magic & Netgen
-
-- Final GDSII Layout Export
-
-- *Full RTL to GDSII Flow: Simulation → Synthesis → Place & Route → GDS layout
 
 
